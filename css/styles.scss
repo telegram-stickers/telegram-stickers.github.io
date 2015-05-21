@@ -1,0 +1,26 @@
+---
+# Use a comment to ensure Jekyll reads the file to be transformed into CSS later
+# only main files contain this front matter, not partials.
+---
+
+// Import base files
+@import "normalize";
+@import "mixins";
+@import "poole/poole";
+
+// Import overriden components
+@import "components/base";
+@import "components/layout";
+@import "components/type";
+@import "components/masthead";
+
+//
+// Columns test
+//
+
+.columns-test {
+  > .column {
+    background-color: #ddd;
+    border: 1px solid #999;
+  }
+}

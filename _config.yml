@@ -1,0 +1,41 @@
+# Dependencies
+markdown:            kramdown
+highlighter:         pygments
+
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               "Telegram Stickers Directory"
+tagline:             "A curated list of stickers for Telegram Messenger."
+url:                 "http://resir014.github.io"
+paginate:            15
+paginate_path:       "/page/:num/"
+baseurl:             "/telegram-stickers"
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Resi Respati
+  url:               https://resir014.github.io/
+  email:             resir014@gmail.com
+
+# Custom vars
+version:             1.0.0
+github:
+  repo:              https://github.com/resir014/telegram-stickers
+
+# Collections
+collections:
+  stickers:
+    output:       true
+    permalink:    /:collection/:path/

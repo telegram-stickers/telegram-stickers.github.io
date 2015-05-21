@@ -1,0 +1,75 @@
+// Container
+.container {
+  width: auto;
+  max-width: 52rem;
+  margin-left:  auto;
+  margin-right: auto;
+}
+
+// Grid system
+//
+// Adapted from https://github.com/primer/primer/blob/master/scss/_layout.scss
+
+.columns {
+  margin-right: -1.5rem;
+  margin-left: -1.5rem;
+  @include clearfix;
+
+  @media (max-width: 34rem) {
+    > .column {
+      float: none;
+      width: 100%;
+    }
+  }
+}
+
+// Base class for every column (requires a column width from below)
+.column {
+  float: left;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+// Column widths
+.one-third {
+  width: 33.333333%;
+}
+
+.two-thirds {
+  width: 66.666667%;
+}
+
+.one-fourth {
+  width: 25%;
+}
+
+.one-half {
+  width: 50%;
+}
+
+.three-fourths {
+  width: 75%;
+}
+
+.one-fifth {
+  width: 20%;
+}
+
+.four-fifths {
+  width: 80%;
+}
+
+// Single column hack
+.single-column {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+// Equal width columns via table sorcery.
+.table-column {
+  display: table-cell;
+  width: 1%;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  vertical-align: top;
+}
