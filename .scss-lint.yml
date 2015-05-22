@@ -12,6 +12,7 @@ scss_files: '_sass/**/*.scss'
 
 exclude:
   - '_sass/poole/*'
+  - '_sass/_normalize.scss'
   - 'css/styles.scss'
 
 linters:
