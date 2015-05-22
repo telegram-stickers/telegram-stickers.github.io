@@ -1,0 +1,31 @@
+/* TEAM */
+  Developer, Maintainer: Resi Respati
+  Site: https://resir014.github.io/
+  Twitter: @resir014
+  From: Jakarta, Indonesia
+
+  Maintainer: Mel
+  Site: https://dankmau5.github.io/
+  Twitter: @dankmau5
+  From: USA
+
+/* THANKS */
+  Poole: Mark Otto
+  License: MIT
+  Site: http://getpoole.com/
+  Twitter: @mdo
+
+  Primer: GitHub, Inc.
+  License: MIT
+  Site: http://primercss.io/
+  Twitter: @github
+
+  Simple Jekyll Search: Christian Fei
+  License: MIT
+  Site: https://github.com/christian-fei/Simple-Jekyll-Search
+
+/* SITE */
+  Language: English
+  Standards: HTML5, SCSS
+  Components: Normalize, Poole, Primer, Jekyll
+  Software: Atom, Sublime Text, Ruby
