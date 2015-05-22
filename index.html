@@ -1,7 +1,22 @@
 ---
-layout: page
+layout: home
 title: Home
 ---
 
-<p><strong>Hey there!</strong> Welcome to the future home of the Telegram Stickers Directory.</p>
-<p>Unfortunately we're still working on this website. Check back here in a few days for more!</p>
+<div class="message">
+  <strong>Hey there!</strong> Welcome to the Telegram Stickers Directory. <br/>
+  Unfortunately we're still working on this website. Check back here in a few days for more!
+</div>
+
+<div class="columns showcase">
+  {% for sticker in site.stickers %}
+    <div class="column one-third">
+      <h3>{{ sticker.title }}</h3>
+      {{ sticker.content }}
+
+      <p>Stickers: <strong>{{ sticker.amount }}</strong></p>
+
+      <a class="btn btn-blue btn-block" href="{{ sticker.url }}">Add Sticker</a>
+    </div>
+  {% endfor %}
+</div>

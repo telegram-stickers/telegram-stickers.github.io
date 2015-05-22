@@ -1,0 +1,12 @@
+---
+---
+[
+  {% for sticker in site.stickers %}
+    {
+      "title"    : "{{ sticker.title | escape }}",
+      "creator"  : "{{ sticker.creator }}",
+      "tags"     : "{{ sticker.tags | join: ', ' }}",
+      "url"      : "{{ site.baseurl }}{{ sticker.url }}"
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]

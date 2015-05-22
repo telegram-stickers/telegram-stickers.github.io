@@ -3,6 +3,11 @@
 // Glabal overrides for base Poole components.
 
 // Body font
-html {
+body {
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+// Link colours
+a {
+  color: #179cde;
 }

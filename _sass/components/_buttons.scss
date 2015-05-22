@@ -1,0 +1,180 @@
+// Buttons
+//
+// Adapted from https://github.com/South-Paw/CSS-SxcBtns
+
+.btn {
+  padding: 8px 16px;
+  background-color: #c4c4c4;
+  border: 1px solid #afafaf;
+  border-radius: 5px;
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-decoration: none;
+  -webkit-transition: all .15s;
+  -moz-transition: all .15s;
+  -o-transition: all .15s;
+  transition: all .15s;
+
+  &:hover {
+    background-color: #b3b3b3;
+    border-color: #919191;
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+.btn-xs {
+  padding: 2px 4px;
+  font-size: 10px;
+  line-height: 14px;
+  border-radius: 3px;
+}
+
+.btn-sm {
+  padding: 4px 8px;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.btn-lg {
+  padding: 10px 20px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.btn-white {
+  background-color: #fcfcfc;
+  border-color: #c7c7c7;
+  color: #070707;
+
+  &:hover {
+    background-color: #f2f2f2;
+    border-color: #b1b1b1;
+    color: #070707;
+  }
+}
+
+.btn-black {
+  background-color: #535353;
+  border-color: #474747;
+  color: #fff;
+
+  &:hover {
+    background-color: #3d3d3d;
+    border-color: #0e0e0e;
+    color: #fff;
+  }
+}
+
+.btn-red {
+  background-color: #dd5050;
+  border-color: #c73f3f;
+  color: #fff;
+
+  &:hover {
+    background-color: #c92f2f;
+    border-color: #a33131;
+    color: #fff;
+  }
+}
+
+.btn-orange {
+  background-color: #f0ad4e;
+  border-color: #eea236;
+  color: #fff;
+
+  &:hover {
+    background-color: #ed9c28;
+    border-color: #d58512;
+    color: #fff;
+  }
+}
+
+.btn-green {
+  background-color: #55c055;
+  border-color: #53ac42;
+  color: #fff;
+
+  &:hover {
+    background-color: #40a340;
+    border-color: #317c23;
+    color: #fff;
+  }
+}
+
+.btn-light-blue {
+  background-color: #59aedf;
+  border-color: #529aca;
+  color: #fff;
+
+  :hover {
+    background-color: #4b95c0;
+    border-color: #3C7eaa;
+    color: #fff;
+  }
+}
+
+.btn-blue {
+  background-color: #3e7ef0;
+  border-color: #3c6fc9;
+  color: #fff;
+
+  &:hover {
+    background-color: #336bcf;
+    border-color: #2c549c;
+    color: #fff;
+  }
+}
+
+.btn-purple {
+  background-color: #dd48e4;
+  border-color: #bc45e2;
+  color: #fff;
+
+  &:hover {
+    background-color: #c63dcc;
+    border-color: #9c3dad;
+    color: #fff;
+  }
+}
+
+.btn-link {
+  background-color: transparent;
+  border-color: transparent;
+  color: #0099cc;
+
+  &:hover {
+    background-color: transparent;
+    border-color: transparent;
+    color: inherit;
+  }
+}
+
+.btn-transparent {
+  color: #fff;
+  background-color: rgba(0,0,0,0);
+  border-color: #fff;
+
+  &:hover {
+    color: #fff;
+    text-shadow: none;
+    background-color: rgba(0,0,0, 0.5);
+    border-color: #fff;
+  }
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+
+  + .btn-block {
+    margin-top: 5px;
+  }
+}
