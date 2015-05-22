@@ -6,11 +6,9 @@
   padding-top: 1rem;
   padding-bottom: 1rem;
   margin-bottom: 1.5rem;
-  text-align: center;
-  border-bottom: 1px solid #ddd;
 
   a {
-    color: #333;
+    color: inherit;
 
     &:hover {
       color: inherit;
@@ -29,5 +27,33 @@
     .masthead-logo {
       float: left;
     }
+  }
+}
+
+.masthead-nav {
+  display: block;
+  margin-top: .5rem;
+  font-size: 1rem;
+
+  a {
+    display: inline-block;
+
+    &:not(:last-child) {
+      margin-right: 1.25rem;
+    }
+  }
+
+  .active {
+    color: #fff;
+    font-weight: 500;
+  }
+
+  @media (max-width: 40rem) {
+    float: left;
+  }
+
+  @media (min-width: 40rem) {
+    float: right;
+    margin-top: .5rem;
   }
 }

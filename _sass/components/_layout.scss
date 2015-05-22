@@ -4,6 +4,7 @@
   max-width: 52rem;
   margin-left:  auto;
   margin-right: auto;
+  @include clearfix;
 }
 
 // Grid system
