@@ -7,9 +7,7 @@
     color: inherit;
   }
 
-  .sticker-preview {
-    width: auto;
-    height: 128px;
+  .stickers-preview {
     padding-left: auto;
     padding-right: auto;
     margin-top: 1rem;
@@ -18,7 +16,7 @@
     img {
       display: inline;
       max-width: 100%;
-      max-height: 100%;
+      max-height: 128px;
     }
   }
 }

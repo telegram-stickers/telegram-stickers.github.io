@@ -1,5 +1,6 @@
 ---
 layout: sticker
+name: unofficial
 title: "Unofficial"
 creator: "Telegram"
 tags: [unofficial, telegram]

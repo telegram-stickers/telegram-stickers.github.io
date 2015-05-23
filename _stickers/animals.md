@@ -10,8 +10,8 @@ link: https://telegram.me/addstickers/Animals
 
 <p>Created as an introduction to the Sticker Packs feature, artist unknown.</p>
 
-<div id="stickers">
-  <div id="stickerpreview">
+<div class="stickers">
+  <div class="stickers-preview">
     <img src="{{ site.baseurl }}/public/stickers/{{ page.name }}/1.png" />
     <img src="{{ site.baseurl }}/public/stickers/{{ page.name }}/2.png" />
     <img src="{{ site.baseurl }}/public/stickers/{{ page.name }}/3.png" />
