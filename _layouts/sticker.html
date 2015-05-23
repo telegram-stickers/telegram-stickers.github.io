@@ -2,19 +2,25 @@
 layout: page
 ---
 
-<div class="columns sticker-info">
+<div class="columns stickers-info">
   <div class="column two-thirds">
-    <ul>
+    <ul class="fa-ul">
       <li>
-        <strong>Author:</strong>
+        <i class="fa-li fa fa-user"></i>
         {% if page.author.url %}
-          <a href="{{ page.author.url }}">{{ page.author.name }}</a>
+          <a href="{{ page.author.url }}" target="_blank">{{ page.author.name }}</a>
         {% else %}
           {{ page.author.name }}
         {% endif %}
       </li>
       <li>
-        <strong>Number of stickers:</strong> {{ page.amount }}
+        <i class="fa-li fa fa-picture-o"></i> {{ page.amount }}
+      </li>
+      <li>
+        <i class="fa-li fa fa-tags"></i>
+        {% for tag in page.tags %}
+          {{ tag }}{% unless forloop.last %}, {% endunless %}
+        {% endfor %}
       </li>
     </ul>
   </div>
@@ -23,4 +29,6 @@ layout: page
   </div>
 </div>
 
-{{ content }}
+<div class="stickers-details">
+  {{ content }}
+</div>
