@@ -77,6 +77,30 @@
   vertical-align: top;
 }
 
+// Floats
+//
+// Floats an element to the left or right.
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+// Text alignments
+//
+// Change the `text-align` on elements with a class.
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
 // Footer
 //
 // Customised footer.
