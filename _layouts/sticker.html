@@ -2,7 +2,14 @@
 layout: page
 ---
 
-<p><strong>Author:</strong> {{ page.author }}</p>
-<p><strong>Number of stickers:</strong> {{ page.amount }}</p>
+<div class="columns sticker-info">
+  <div class="column two-thirds">
+    <strong>Author:</strong> {{ page.author }}<br/>
+    <strong>Number of stickers:</strong> {{ page.amount }}
+  </div>
+  <div class="column one-third">
+    <a href="" class="btn btn-blue btn-block">Get Sticker</a>
+  </div>
+</div>
 
 {{ content }}

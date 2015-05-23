@@ -8,21 +8,20 @@ title: Home
   Unfortunately we're still working on this website. Check back here in a few days for more!
 </div>
 
-<div class="columns showcase">
-  {% for sticker in site.stickers %}
-    <div class="column one-third">
-      <div class="showcase-inner">
-        <div class="showcase-item">
-          <h3>{{ sticker.title }}</h3>
-          {{ sticker.content }}
-
-          <p>Stickers: <strong>{{ sticker.amount }}</strong></p>
-        </div>
-        <div class="showcase-button">
-          <a class="btn btn-green btn-block" href="{{ sticker.url }}">More Info</a>
-          <a class="btn btn-blue btn-block" href="{{ sticker.link }}">Add Sticker</a>
-        </div>
+<h1>New Stickers</h1>
+<div class="stickers">
+  {% assign stickers = site.stickers | sort: 'date' | reverse %}
+  {% for sticker in stickers %}
+    <a href="{{ site.baseurl }}{{ sticker.url }}">
+      <h2>{{ sticker.title }}</h2>
+      <div class="stickers-preview">
+        <img src="{{ site.baseurl }}/public/stickers/{{ sticker.name }}/1.png" />
+        <img src="{{ site.baseurl }}/public/stickers/{{ sticker.name }}/2.png" />
+        <img src="{{ site.baseurl }}/public/stickers/{{ sticker.name }}/3.png" />
+        <img src="{{ site.baseurl }}/public/stickers/{{ sticker.name }}/4.png" />
+        <img src="{{ site.baseurl }}/public/stickers/{{ sticker.name }}/5.png" />
+        <img src="{{ site.baseurl }}/public/stickers/{{ sticker.name }}/6.png" />
       </div>
-    </div>
+    </a>
   {% endfor %}
 </div>
