@@ -5,4 +5,28 @@
 .showcase {
   margin-top: 1rem;
   margin-bottom: 1rem;
+
+  .showcase-inner {
+    padding: 1rem;
+    border: 1px solid #d3d3d3;
+
+    &:not(:last-child) {
+      margin-bottom: 2rem;
+    }
+  }
+}
+
+.showcase-item {
+  h3 {
+    margin-top: 0;
+  }
+}
+
+.showcase-button {
+  margin-top: 2rem;
+  width: 100%;
+
+  .btn {
+    border-radius: 0 ;
+  }
 }

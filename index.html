@@ -11,12 +11,18 @@ title: Home
 <div class="columns showcase">
   {% for sticker in site.stickers %}
     <div class="column one-third">
-      <h3>{{ sticker.title }}</h3>
-      {{ sticker.content }}
+      <div class="showcase-inner">
+        <div class="showcase-item">
+          <h3>{{ sticker.title }}</h3>
+          {{ sticker.content }}
 
-      <p>Stickers: <strong>{{ sticker.amount }}</strong></p>
-
-      <a class="btn btn-blue btn-block" href="{{ sticker.url }}">Add Sticker</a>
+          <p>Stickers: <strong>{{ sticker.amount }}</strong></p>
+        </div>
+        <div class="showcase-button">
+          <a class="btn btn-green btn-block" href="{{ sticker.url }}">More Info</a>
+          <a class="btn btn-blue btn-block" href="{{ sticker.link }}">Add Sticker</a>
+        </div>
+      </div>
     </div>
   {% endfor %}
 </div>
