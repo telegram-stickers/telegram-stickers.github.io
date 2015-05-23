@@ -80,7 +80,12 @@
 // Footer
 //
 // Customised footer.
+
 footer {
   margin-top: 2rem;
   margin-bottom: 2rem;
+
+  small {
+    display: block;
+  }
 }
