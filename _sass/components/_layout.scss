@@ -3,10 +3,10 @@
   @include clearfix;
   width: auto;
   max-width: 52rem;
-  padding-right: 1rem;
   padding-left: 1rem;
-  margin-right: auto;
+  padding-right: 1rem;
   margin-left: auto;
+  margin-right: auto;
 }
 
 // Grid system
@@ -15,8 +15,8 @@
 
 .columns {
   @include clearfix;
-  margin-right: -1rem;
   margin-left: -1rem;
+  margin-right: -1rem;
 
   @media (max-width: 40rem) {
     > .column {
@@ -29,8 +29,8 @@
 // Base class for every column (requires a column width from below)
 .column {
   float: left;
-  padding-right: 1rem;
   padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 // Column widths
@@ -64,16 +64,16 @@
 
 // Single column hack
 .single-column {
-  padding-right: 1rem;
   padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 // Equal width columns via table sorcery.
 .table-column {
   display: table-cell;
   width: 1%;
-  padding-right: 1rem;
   padding-left: 1rem;
+  padding-right: 1rem;
   vertical-align: top;
 }
 
