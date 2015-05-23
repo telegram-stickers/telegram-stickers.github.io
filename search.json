@@ -3,11 +3,10 @@
 [
   {% for sticker in site.stickers %}
     {
-      "title"       : "{{ sticker.title | escape }}",
-      "author.name" : "{{ sticker.author.name }}",
-      "author.url"  : "{{ sticker.author.url }}",
-      "tags"        : "{{ sticker.tags | join: ', ' }}",
-      "url"         : "{{ site.baseurl }}{{ sticker.url }}"
+      "title"  : "{{ sticker.title | escape }}",
+      "author" : "{{ sticker.author.name }}",
+      "tags"   : "{{ sticker.tags | join: ', ' }}",
+      "url"    : "{{ site.baseurl }}{{ sticker.url }}"
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
