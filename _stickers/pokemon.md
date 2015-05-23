@@ -1,5 +1,6 @@
 ---
 layout: sticker
+name: pokemon
 title: "Pokemon"
 creator: "Unknown"
 tags: [gaming, tv, pokemon]

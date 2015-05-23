@@ -6,16 +6,16 @@ title: Home
 <h1>New Stickers</h1>
 <div id="stickers">
   {% for sticker in site.stickers %}
-  <a href="{{ site.baseurl }}{{ sticker.url }}"
-  <h2>{{ sticker.title }}</h2>
-  <div id="stickerpreview">
-    <img src="{{ site.baseurl }}/public/stickers/{{ sticker.title }}/1.png" />
-    <img src="{{ site.baseurl }}/public/stickers/{{ sticker.title }}/2.png" />
-    <img src="{{ site.baseurl }}/public/stickers/{{ sticker.title }}/3.png" />
-    <img src="{{ site.baseurl }}/public/stickers/{{ sticker.title }}/4.png" />
-    <img src="{{ site.baseurl }}/public/stickers/{{ sticker.title }}/5.png" />
-    <img src="{{ site.baseurl }}/public/stickers/{{ sticker.title }}/6.png" />
-  </div>
+  <a href="{{ site.baseurl }}{{ sticker.url }}">
+    <h2>{{ sticker.title }}</h2>
+    <div class="sticker-preview">
+      <img src="{{ site.baseurl }}/public/stickers/{{ sticker.name }}/1.png" />
+      <img src="{{ site.baseurl }}/public/stickers/{{ sticker.name }}/2.png" />
+      <img src="{{ site.baseurl }}/public/stickers/{{ sticker.name }}/3.png" />
+      <img src="{{ site.baseurl }}/public/stickers/{{ sticker.name }}/4.png" />
+      <img src="{{ site.baseurl }}/public/stickers/{{ sticker.name }}/5.png" />
+      <img src="{{ site.baseurl }}/public/stickers/{{ sticker.name }}/6.png" />
+    </div>
   </a>
   {% endfor %}
 </div>
