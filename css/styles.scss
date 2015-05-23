@@ -14,42 +14,6 @@
 @import "components/type";
 @import "components/buttons";
 @import "components/masthead";
+@import "components/search";
 @import "components/showcase";
 @import "components/stickers";
-
-//
-// Columns test
-//
-
-.columns-test {
-  > .column {
-    background-color: #ddd;
-    border: 1px solid #999;
-  }
-}
-
-//
-// Jekyll search container
-//
-
-.search-container {
-  max-width: 40em;
-  padding: 1em;
-  margin: 1em auto;
-  border: 1px solid #d3d3d3;
-
-  #search-input {
-    display: inline-block;
-    padding: .5em;
-    width: 100%;
-    font-size: 0.8em;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-  }
-
-  #results-container {
-    margin-top: 1rem;
-    margin-botton: 1rem;
-  }
-}

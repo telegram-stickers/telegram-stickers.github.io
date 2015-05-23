@@ -1,0 +1,47 @@
+// Search
+//
+// Simple Jekyll Search container
+
+.search-container {
+  max-width: 40rem;
+  padding: 1em 0;
+  margin: 1em auto;
+  border: 1px solid #d3d3d3;
+
+  #search-input {
+    display: inline-block;
+    width: 100%;
+    padding: .5rem;
+    font-size: .8rem;
+  }
+
+  #search-results-container {
+    padding: 0;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    list-style-type: none;
+
+    li {
+      border: 1px solid #d3d3d3;
+      border-bottom: 0;
+
+      &:last-child {
+        border-bottom: 1px solid #d3d3d3;
+      }
+
+      a {
+        position: relative;
+        display: block;
+        padding: .5rem 1rem;
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+
+    .no-result {
+      padding: .5rem 1rem;
+    }
+  }
+}
