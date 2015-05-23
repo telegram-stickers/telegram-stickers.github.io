@@ -127,14 +127,14 @@ linters:
       - box-sizing
       - padding
       - padding-top
-      - padding-right
       - padding-bottom
       - padding-left
+      - padding-right
       - margin
       - margin-top
-      - margin-right
       - margin-bottom
       - margin-left
+      - margin-right
       - overflow
       - overflow-x
       - overflow-y
