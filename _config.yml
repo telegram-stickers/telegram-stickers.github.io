@@ -38,4 +38,4 @@ github:
 collections:
   stickers:
     output:       true
-    permalink:    /:collection/:path/
+    permalink:    /:collection/:title/
