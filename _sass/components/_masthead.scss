@@ -28,7 +28,7 @@
   @media (min-width: 43rem) {
     text-align: left;
 
-    .masthead-logo {
+    .masthead-title {
       float: left;
     }
   }
@@ -47,12 +47,12 @@
     }
   }
 
-  @media (max-width: 34em) {
+  @media (max-width: 43em) {
     padding-top: 1rem;
     border-top: .075rem solid rgba(255, 255, 255, 0.25);
   }
 
-  @media (min-width: 34em) {
+  @media (min-width: 43em) {
     float: right;
     margin-top: .5rem;
   }
