@@ -47,12 +47,13 @@
     }
   }
 
-  @media (max-width: 43rem) {
-    float: left;
+  @media (max-width: 34em) {
+    padding-top: 1rem;
+    border-top: .075rem solid rgba(255, 255, 255, 0.25);
   }
 
-  @media (min-width: 43rem) {
+  @media (min-width: 34em) {
     float: right;
-    margin-top: .25rem;
+    margin-top: .5rem;
   }
 }
