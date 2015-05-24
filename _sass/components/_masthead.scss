@@ -6,14 +6,13 @@
   padding-top: 1rem;
   padding-bottom: 1rem;
   margin-bottom: 1.5rem;
-  background-color: #179CDE;
-  //border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
 
   a {
-    color: #FFF;
+    color: inherit;
 
     &:hover {
-      color: #FFF;
+      color: inherit;
       text-decoration: none;
     }
   }
