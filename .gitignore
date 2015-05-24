@@ -40,5 +40,3 @@ validation-report.json
 
 # Folders to ignore
 node_modules
-public/stickers/convert.bat
-public/stickers/convert (Mel).bat
