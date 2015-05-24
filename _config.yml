@@ -14,7 +14,7 @@ tagline:             "A curated list of stickers for Telegram Messenger."
 url:                 "http://resir014.github.io"
 paginate:            15
 paginate_path:       "/page/:num/"
-baseurl:             "/telegram-stickers"
+baseurl:             ""
 
 # Assets
 #
