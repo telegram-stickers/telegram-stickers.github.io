@@ -11,7 +11,7 @@ relative_permalinks: true
 # Setup
 title:               "Telegram Stickers Directory"
 tagline:             "A curated list of stickers for Telegram Messenger."
-url:                 "http://resir014.github.io"
+url:                 "https://telegram-stickers.github.io"
 paginate:            15
 paginate_path:       "/page/:num/"
 baseurl:             ""
