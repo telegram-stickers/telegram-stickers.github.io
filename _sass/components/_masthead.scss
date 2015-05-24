@@ -6,14 +6,16 @@
   padding-top: 1rem;
   padding-bottom: 1rem;
   margin-bottom: 1.5rem;
-  background-color: #179CDE;
+  text-align: center;
+  background-color: #179cde;
   //border-bottom: 1px solid #ccc;
 
   a {
-    color: #FFF;
+    color: #fff;
 
-    &:hover {
-      color: #FFF;
+    &:hover,
+    &:focus {
+      color: #fff;
       text-decoration: none;
     }
   }

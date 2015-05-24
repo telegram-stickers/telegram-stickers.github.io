@@ -1,15 +1,32 @@
-// Search
+// Jumbotron
 //
-// Simple Jekyll Search container
+// Main jumbotron heading for searchbox.
 
-.search-container {
-  max-width: 40rem;
-  padding: 1em 0;
-  margin: 1em auto;
-  border: 1px solid #d3d3d3;
+.jumbotron {
+  margin-top: -2rem;
+  margin-bottom: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  background-color: #179cde;
+  color: #fff;
+  text-align: center;
+
+  .jumbotron-title {
+    color: inherit;
+    font-size: 2.5rem;
+  }
+
+  .search-container {
+    max-width: 40rem;
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+  }
 
   #search-input {
     display: inline-block;
+    color: #515151;
     width: 100%;
     padding: .5rem;
     font-size: .8rem;
@@ -33,10 +50,12 @@
         position: relative;
         display: block;
         padding: .5rem 1rem;
+        color: #fff;
 
         &:hover {
           text-decoration: none;
-          background-color: #fafafa;
+          background-color: rgba(255, 255, 255, .1);
+          color: inherit;
         }
       }
     }
