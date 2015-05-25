@@ -2,9 +2,9 @@
 .container {
   @include clearfix;
   width: auto;
-  max-width: 52rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  max-width: $container-width;
+  padding-left: $grid-gutter;
+  padding-right: $grid-gutter;
   margin-left: auto;
   margin-right: auto;
 }
@@ -15,8 +15,8 @@
 
 .columns {
   @include clearfix;
-  margin-left: -1rem;
-  margin-right: -1rem;
+  margin-left: (-$grid-gutter);
+  margin-right: (-$grid-gutter);
 
   @media (max-width: 40rem) {
     > .column {
@@ -29,8 +29,8 @@
 // Base class for every column (requires a column width from below)
 .column {
   float: left;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: $grid-gutter;
+  padding-right: $grid-gutter;
 }
 
 // Column widths
@@ -64,16 +64,16 @@
 
 // Single column hack
 .single-column {
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: $grid-gutter;
+  padding-right: $grid-gutter;
 }
 
 // Equal width columns via table sorcery.
 .table-column {
   display: table-cell;
   width: 1%;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: $grid-gutter;
+  padding-right: $grid-gutter;
   vertical-align: top;
 }
 

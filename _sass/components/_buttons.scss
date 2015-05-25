@@ -46,25 +46,25 @@
 
 .btn-green {
   color: #fff;
-  background-color: #55c055;
-  border-color: #53ac42;
+  background-color: $brand-green;
+  border-color: darken($brand-green, 5%);
 
   &:hover {
     color: #fff;
-    background-color: #40a340;
-    border-color: #317c23;
+    background-color: darken($brand-green, 10%);
+    border-color: darken($brand-green, 15%);
   }
 }
 
 .btn-blue {
   color: #fff;
-  background-color: #179CDE;
-  border-color: #3c6fc9;
+  background-color: $brand-blue;
+  border-color: darken($brand-blue, 5%);
 
   &:hover {
     color: #fff;
-    background-color: #336bcf;
-    border-color: #2c549c;
+    background-color: darken($brand-blue, 10%);
+    border-color: darken($brand-blue, 15%);
   }
 }
 

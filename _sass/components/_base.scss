@@ -4,11 +4,17 @@
 
 // Body font
 body {
-  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  line-height: (20/14);
+  font-family: $font-stack;
+  line-height: $line-height-base;
 }
 
 // Link colours
 a {
-  color: #179cde;
+  color: $brand-blue;
+
+  &:hover,
+  &:focus {
+    color: darken($brand-blue, 10%);
+    text-decoration: none;
+  }
 }
