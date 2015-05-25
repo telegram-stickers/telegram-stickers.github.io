@@ -10,7 +10,7 @@ amount: 9
 link: https://telegram.me/addstickers/dumbwaystodie
 ---
 
-So many dumb ways to die. (Ported by [mia2h](http://www.reddit.com/r/TelegramStickersShare/comments/376tg8/s_dumb_ways_to_die/))
+So many dumb ways to die. (Ported by [m1a2h](http://www.reddit.com/r/TelegramStickersShare/comments/376tg8/s_dumb_ways_to_die/))
 
 <div class="stickers">
   <div class="stickers-preview">
