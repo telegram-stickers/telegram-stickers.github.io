@@ -25,7 +25,7 @@
     font-size: 1.5rem;
   }
 
-  @media (min-width: 43rem) {
+  @media (min-width: 38rem) {
     text-align: left;
 
     .masthead-title {
@@ -47,12 +47,12 @@
     }
   }
 
-  @media (max-width: 43em) {
+  @media (max-width: 38rem) {
     padding-top: 1rem;
     border-top: .075rem solid rgba(255, 255, 255, 0.25);
   }
 
-  @media (min-width: 43em) {
+  @media (min-width: 38rem) {
     float: right;
     margin-top: .5rem;
   }
