@@ -4,7 +4,7 @@ title: All Stickers
 ---
 
 <div class="stickers">
-  {% for sticker in stickers %}
+  {% for sticker in site.stickers %}
     <a href="{{ site.baseurl }}{{ sticker.url }}">
       <h2>{{ sticker.title }}</h2>
       <div class="stickers-preview">
