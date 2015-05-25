@@ -3,17 +3,17 @@
 // Main jumbotron heading for searchbox.
 
 .jumbotron {
-  margin-top: -2rem;
-  margin-bottom: 1.5rem;
   padding-top: 1rem;
   padding-bottom: 2rem;
-  background-color: $brand-blue;
+  margin-top: -2rem;
+  margin-bottom: 1.5rem;
   color: #fff;
   text-align: center;
+  background-color: $brand-blue;
 
   .jumbotron-title {
-    color: inherit;
     font-size: 2.5rem;
+    color: inherit;
   }
 
   .search-container {
@@ -26,10 +26,10 @@
 
   #search-input {
     display: inline-block;
-    color: #515151;
     width: 100%;
     padding: .5rem;
     font-size: .8rem;
+    color: #515151;
   }
 
   #search-results-container {
