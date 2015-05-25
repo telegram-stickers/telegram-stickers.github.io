@@ -9,14 +9,22 @@
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
-  {% for page in site.pages %}
+  {% for sticker in site.stickers %}
+  <url>
+    <loc>{{ site.url }}{{ site.baseurl }}{{ sticker.url }}</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  {% endfor %}
+  {% for page in site.html_pages %}
   {% if page.layout != "home" %}
   {% if page.permalink != "404.html" %}
   <url>
     <loc>{{ site.url }}{{ site.baseurl }}{{ page.url }}</loc>
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.5</priority>
   </url>
   {% endif %}
   {% endif %}
