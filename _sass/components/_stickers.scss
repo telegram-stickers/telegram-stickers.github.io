@@ -8,8 +8,13 @@
 }
 
 .stickers {
+  background: #fff;
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.15);
 
   a {
     color: inherit;
@@ -28,6 +33,16 @@
       display: inline;
       max-width: 100%;
       max-height: 128px;
+      transition: all ease-in .1s;
+
+      &:hover {
+        opacity: .75;
+      }
     }
   }
+}
+
+.recent-title,
+.page-title {
+  margin-bottom: 1.2rem;
 }

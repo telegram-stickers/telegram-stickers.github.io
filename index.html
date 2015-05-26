@@ -3,7 +3,7 @@ layout: home
 title: Home
 ---
 
-<h1>New Stickers</h1>
+<h1 class="recent-title">New Stickers</h1>
 <div class="stickers">
   {% assign stickers = site.stickers | sort: 'date' | reverse %}
   {% for sticker in stickers %}

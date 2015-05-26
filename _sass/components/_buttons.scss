@@ -4,17 +4,18 @@
 
 .btn {
   display: inline-block;
-  padding: 8px 16px;
-  font-size: 16px;
-  font-weight: 400;
+  padding: .5rem .8rem;
+  font-size: 1rem;
+  font-weight: 500;
   line-height: 20px;
   color: #fff;
   text-align: center;
+  text-transform: uppercase;
   text-decoration: none;
   vertical-align: middle;
   background-color: #c4c4c4;
   border: 1px solid #afafaf;
-  border-radius: 5px;
+  border-radius: 3px;
   transition: all .15s;
 
   &:hover {
@@ -95,7 +96,9 @@
 
 .btn-block {
   display: block;
-  width: 100%;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
   padding-left: 0;
   padding-right: 0;
 
