@@ -6,15 +6,17 @@
 body {
   font-family: $font-stack;
   line-height: $line-height-base;
+  background-color: #f9f9f9;
 }
 
 // Link colours
 a {
   color: $brand-blue;
+  transition: all ease-in-out .2s;
 
   &:hover,
   &:focus {
-    color: darken($brand-blue, 10%);
+    color: darken($brand-blue, 15%);
     text-decoration: none;
   }
 }
