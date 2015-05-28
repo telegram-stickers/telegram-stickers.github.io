@@ -37,3 +37,5 @@ Adventure time, come on and grab your friends!
     <img src="{{ site.baseurl }}/public/stickers/{{ page.name }}/21.png" />
     <img src="{{ site.baseurl }}/public/stickers/{{ page.name }}/22.png" />
     <img src="{{ site.baseurl }}/public/stickers/{{ page.name }}/23.png" />
+  </div>
+</div>
