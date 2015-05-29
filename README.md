@@ -1,4 +1,4 @@
-# [Telegram Stickers Directory](https://resir014.github.io/telegram-stickers/)
+# [Telegram Stickers Directory](https://telegram-stickers.github.io/)
 
 A self-curated list of high-quality stickers for [Telegram Messenger](https://telegram.org/).
 
