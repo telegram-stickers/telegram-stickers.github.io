@@ -1,0 +1,46 @@
+---
+layout: sticker
+category: stickers
+slug: chucklefish
+title: "Chucklefish"
+author:
+  name: "Chucklefish Team"
+  url: http://blog.chucklefish.org/team/
+tags: [chucklefish]
+amount: 27
+link: https://telegram.me/addstickers/Chucklefish
+---
+
+Chucklefish-themed stickers. Some Starbound love within as well!
+
+<div class="stickers">
+  <div class="stickers-preview">
+    <img src="{{ site.baseurl }}/public/stickers/{{ page.slug }}/1.png" />
+    <img src="{{ site.baseurl }}/public/stickers/{{ page.slug }}/2.png" />
+    <img src="{{ site.baseurl }}/public/stickers/{{ page.slug }}/3.png" />
+    <img src="{{ site.baseurl }}/public/stickers/{{ page.slug }}/4.png" />
+    <img src="{{ site.baseurl }}/public/stickers/{{ page.slug }}/5.png" />
+    <img src="{{ site.baseurl }}/public/stickers/{{ page.slug }}/6.png" />
+    <img src="{{ site.baseurl }}/public/stickers/{{ page.slug }}/7.png" />
+    <img src="{{ site.baseurl }}/public/stickers/{{ page.slug }}/8.png" />
+    <img src="{{ site.baseurl }}/public/stickers/{{ page.slug }}/9.png" />
+    <img src="{{ site.baseurl }}/public/stickers/{{ page.slug }}/10.png" />
+    <img src="{{ site.baseurl }}/public/stickers/{{ page.slug }}/11.png" />
+    <img src="{{ site.baseurl }}/public/stickers/{{ page.slug }}/12.png" />
+    <img src="{{ site.baseurl }}/public/stickers/{{ page.slug }}/13.png" />
+    <img src="{{ site.baseurl }}/public/stickers/{{ page.slug }}/14.png" />
+    <img src="{{ site.baseurl }}/public/stickers/{{ page.slug }}/15.png" />
+    <img src="{{ site.baseurl }}/public/stickers/{{ page.slug }}/16.png" />
+    <img src="{{ site.baseurl }}/public/stickers/{{ page.slug }}/17.png" />
+    <img src="{{ site.baseurl }}/public/stickers/{{ page.slug }}/18.png" />
+    <img src="{{ site.baseurl }}/public/stickers/{{ page.slug }}/19.png" />
+    <img src="{{ site.baseurl }}/public/stickers/{{ page.slug }}/20.png" />
+    <img src="{{ site.baseurl }}/public/stickers/{{ page.slug }}/21.png" />
+    <img src="{{ site.baseurl }}/public/stickers/{{ page.slug }}/22.png" />
+    <img src="{{ site.baseurl }}/public/stickers/{{ page.slug }}/23.png" />
+    <img src="{{ site.baseurl }}/public/stickers/{{ page.slug }}/24.png" />
+    <img src="{{ site.baseurl }}/public/stickers/{{ page.slug }}/25.png" />
+    <img src="{{ site.baseurl }}/public/stickers/{{ page.slug }}/26.png" />
+    <img src="{{ site.baseurl }}/public/stickers/{{ page.slug }}/27.png" />
+  </div>
+</div>

@@ -1,12 +1,12 @@
 ---
 ---
 [
-  {% for sticker in site.stickers %}
+  {% for post in site.posts %}
     {
-      "title"  : "{{ sticker.title | escape }}",
-      "author" : "{{ sticker.author.name }}",
-      "tags"   : "{{ sticker.tags | join: ', ' }}",
-      "url"    : "{{ site.baseurl }}{{ sticker.url }}"
+      "title"  : "{{ post.title | escape }}",
+      "author" : "{{ post.author.name }}",
+      "tags"   : "{{ post.tags | join: ', ' }}",
+      "url"    : "{{ site.baseurl }}{{ post.url }}"
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]

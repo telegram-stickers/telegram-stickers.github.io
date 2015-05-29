@@ -13,8 +13,8 @@ title:               "Telegram Stickers Directory"
 tagline:             "A curated list of stickers for Telegram Messenger."
 description:         "Telegram Stickers Directory is a website dedicated to curating and promoting beautiful, cute, and fun stickers for Telegram Messenger. It’s run by two individuals who love using stickers just as much as you do, and we’ll do our best to keep this directory updated daily for your enjoyment."
 url:                 "https://telegram-stickers.github.io"
-paginate:            15
-paginate_path:       "/page/:num/"
+paginate:            10
+paginate_path:       "/stickers/page/:num/"
 baseurl:             ""
 
 # Assets

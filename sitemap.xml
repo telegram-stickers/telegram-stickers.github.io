@@ -9,9 +9,9 @@
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
-  {% for sticker in site.stickers %}
+  {% for post in site.posts %}
   <url>
-    <loc>{{ site.url }}{{ site.baseurl }}{{ sticker.url }}</loc>
+    <loc>{{ site.url }}{{ site.baseurl }}{{ post.url }}</loc>
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
