@@ -24,6 +24,12 @@ a {
 // Customised pagination
 .pagination {
   .more {
+    float: none;
     width: 100%;
+
+    &:first-child,
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
 }
