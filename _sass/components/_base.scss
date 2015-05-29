@@ -23,7 +23,13 @@ a {
 
 // Customised pagination
 .pagination {
+  @include clearfix;
+  margin: 3rem (-$grid-gutter);
   font-family: $font-stack;
+
+  @media (min-width: 30rem) {
+    margin: 3rem 0;
+  }
 
   .more {
     float: none;
