@@ -11,8 +11,7 @@ amount: 21
 link: https://telegram.me/addstickers/Homestuck
 ---
 
-    Land of Maps and Disease
-    Bard of Choice
+    You are the Bard of Choice in the Land of Maps and Disease.
 
     Your interests include SPORTS and GRIMDARK ARTS.
 
