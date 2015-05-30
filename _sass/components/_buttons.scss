@@ -10,8 +10,8 @@
   line-height: 20px;
   color: #fff;
   text-align: center;
-  text-transform: uppercase;
   text-decoration: none;
+  text-transform: uppercase;
   vertical-align: middle;
   background-color: #c4c4c4;
   border: 1px solid #afafaf;
@@ -97,10 +97,10 @@
 .btn-block {
   display: block;
   width: 80%;
-  margin-right: auto;
-  margin-left: auto;
   padding-left: 0;
   padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
 
   + .btn-block {
     margin-top: 5px;

@@ -70,7 +70,7 @@ linters:
     enabled: true
 
   IdSelector:
-    enabled: false
+    enabled: true
 
   ImportantRule:
     enabled: true
