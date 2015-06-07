@@ -13,7 +13,11 @@
   </title>
 
   <meta name="keywords" content="telegram, messenger, telegram messenger, stickers, telegram stickers, telegram messenger stickers, stickers for telegram, stickers for telegram messenger" />
-  <meta name="description" content="{{ site.description }}" />
+  {% if page.category == "stickers" %}
+    <meta name="description" content="{{ page.content | xml_escape }}" />
+  {% else %}
+    <meta name="description" content="{{ site.description }}" />
+  {% endif %}
   <meta name="google-site-verification" content="zXPHGyXggG0IRVPXhgo7AuPiyA4ItE4LyGtOMj7YeBk" />
 
   <!-- Canonical link element -->
