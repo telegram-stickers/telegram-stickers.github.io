@@ -16,6 +16,7 @@ url:                 "https://telegram-stickers.github.io"
 paginate:            10
 paginate_path:       "/stickers/page/:num/"
 baseurl:             ""
+exclude:             ["LICENSE", "README.md", "node_modules", "Gemfile", "Gemfile.lock"]
 
 # Assets
 #
