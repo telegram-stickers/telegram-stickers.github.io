@@ -30,11 +30,4 @@ layout: page
   {{ content }}
 </div>
 
-<div class="stickers">
-  <div class="stickers-preview">
-    {% assign num = page.amount %}
-    {% for i in (1..num) %}
-      <img src="{{ site.baseurl }}/public/stickers/{{ page.slug }}/{{ i }}.png" />
-    {% endfor %}
-  </div>
-</div>
+{% include html/sticker-page-preview.html %}
