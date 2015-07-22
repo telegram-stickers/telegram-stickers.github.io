@@ -27,7 +27,7 @@ a {
   margin: 3rem (-$grid-gutter);
   font-family: $font-stack;
 
-  @media (min-width: 30rem) {
+  @media (min-width: 30em) {
     margin: 3rem 0;
   }
 

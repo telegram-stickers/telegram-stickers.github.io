@@ -60,12 +60,12 @@
     }
   }
 
-  @media (max-width: 38rem) {
+  @media (max-width: 38em) {
     padding-top: 1rem;
     border-top: .075rem solid rgba(255, 255, 255, .25);
   }
 
-  @media (min-width: 38rem) {
+  @media (min-width: 38em) {
     float: right;
     margin-top: .2rem;
   }
