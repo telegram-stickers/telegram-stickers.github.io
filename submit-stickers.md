@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: /submit-stickers/
 title: "Submit a Sticker Pack"
 ---
 
