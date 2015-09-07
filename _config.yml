@@ -18,6 +18,10 @@ paginate_path:       "/stickers/page/:num/"
 baseurl:             ""
 exclude:             ["LICENSE", "README.md", "node_modules", "Gemfile", "Gemfile.lock"]
 
+# List of time zones supported in the TZ database
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:             UTC
+
 # Assets
 #
 # We specify the directory for Jekyll so we can use @imports.
